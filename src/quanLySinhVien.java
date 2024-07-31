@@ -3,7 +3,7 @@ import entity.chucNang2;
 import entity.sinhVien;
 import entity.sinhVienTuNhien;
 import entity.sinhVienXaHoi;
-import org.w3c.dom.ls.LSOutput;
+
 
 import java.util.*;
 
@@ -24,7 +24,7 @@ public class quanLySinhVien {
         ql.themsv(new sinhVienXaHoi(10.0,"Nguyễn Thị Mỹ Hạnh", 19, "Dak Lak", "PS4456", 9.0, 9.5, 9.5, 9));
 
         Scanner scanner = new Scanner(System.in);
-        boolean chon = true;git branch  my
+        boolean chon = true;
 
         while (chon){
             menu();
